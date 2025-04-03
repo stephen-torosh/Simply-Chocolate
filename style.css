@@ -1,0 +1,114 @@
+@font-face {
+    font-family: montserrat;
+    src: url("font/Montserrat-VariableFont_wght.ttf");
+}
+
+
+html, body {
+    padding: 0;
+    margin: 0;
+    font-family: montserrat;
+}
+
+
+/* Navbar styles */
+
+.desktop-nav {
+    display: flex;
+    justify-content: space-between;
+    width: calc(100vw - 64px);
+    max-width: 1136px;
+    height: 24px;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 32px;
+    position: static;
+}
+
+.desktop-nav .left {
+    display: flex;
+}
+
+.desktop-nav .right {
+    display: flex;
+    font-size: 14px;
+    font-weight: 600;
+    height: 100%;
+}
+
+.desktop-nav .right .links {
+    display: flex;
+    gap: 24px;
+    height: 100%;
+    align-items: center;
+    margin-right: 137px;
+}
+
+.desktop-nav .right .sm {
+    display: flex;
+    justify-content: space-between;
+    gap: 18px;
+    height: 24px;
+}
+
+
+/* Header styles */
+
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: calc(100vw - 64px);
+    margin: 0 auto;
+    height: calc((100vw - 124px) / 2);
+    border-radius: 30px;
+    background-image: url("images/header.png");
+    background-size: cover;
+    max-width: 1056px;
+    max-height: 179px;
+    padding: 381px 40px 40px 40px;
+}
+
+.header .text {
+    width: 484px;
+    line-height: 34px;
+    font-size: 28px;
+    font-weight: 500;
+    color: white;
+}
+
+.header .buttons .buynow-button {
+    padding: 14px 40px;
+    background-color: #FD9222;
+    border: 0;
+    border-radius: 45px;
+    color: white;
+    font-weight: 500;
+    font-size: 14px;
+    margin-right: 14px;
+}
+
+.header .buttons .buynow-button:hover {
+    background-color: #FCF1E0;
+    color: #FD9222;
+}
+
+.header .buttons .howitsmade-button {
+    padding: 14px 40px;
+    background-color: transparent;
+    border-radius: 45px;
+    border-color: white;
+    color: white;
+    border-width: 1px;
+}
+
+.header .buttons .howitsmade-button:hover {
+    color: #FD9222;
+    border-color: #FD9222;
+}
+
+.header .buttons span {
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+}
