@@ -13,6 +13,11 @@ html, body {
 
 /* Navbar styles */
 
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
 .desktop-nav {
     display: flex;
     justify-content: space-between;
@@ -58,14 +63,12 @@ html, body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width: calc(100vw - 64px);
+    width: calc(100% - 144px);
     margin: 0 auto;
-    height: calc((100vw - 124px) / 2);
+    height: 179px;
     border-radius: 30px;
     background-image: url("images/header.png");
     background-size: cover;
-    max-width: 1056px;
-    max-height: 179px;
     padding: 381px 40px 40px 40px;
 }
 
