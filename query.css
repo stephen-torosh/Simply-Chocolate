@@ -1,0 +1,13 @@
+@media screen and (max-width: 1200px) {
+    .section2 .recipe {
+        width: 704px;
+        margin: 0 auto;
+        justify-content: center;
+    }
+    .desktop-nav .right .links {
+        display: none;
+    }
+    .desktop-nav .right .sm {
+        display: none;
+    }
+}

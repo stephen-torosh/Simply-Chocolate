@@ -14,7 +14,7 @@ html, body {
 /* Navbar styles */
 
 .container {
-    width: 1200px;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
@@ -120,8 +120,9 @@ html, body {
 .section1 {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     width: calc(100% - 100px);
-    height: 244px;
+    min-height: 244px;
     background-color: #1E1823;
     padding: 50px;
     margin-bottom: 128px;
@@ -134,6 +135,7 @@ html, body {
     width: 326px;
     height: 244px;
     color: white;
+    margin-bottom: 20px;
 }
 
 .section1 .item h1 {
@@ -149,7 +151,7 @@ html, body {
 }
 
 .section2 {
-    width: 1136px;
+    max-width: 1136px;
     margin: 0 32px;
     margin-bottom: 128px;
 }
@@ -163,7 +165,7 @@ html, body {
 }
 
 .section2 p {
-    width: 520px;
+    max-width: 520px;
     font-size: 14px;
     margin: 0 auto;
     text-align: center;
@@ -171,9 +173,10 @@ html, body {
 }
 
 .section2 .recipe {
-    width: 100%;
+    max-width: 100%;
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 18px;
 }
 
 .section2 .item {
@@ -200,6 +203,8 @@ html, body {
     color: white;
 }
 .section2 .white {
+    width: 213px;
+    height: 213px;
     background-color: white;
     border: 1px #FD9222 solid;
     color: black;
