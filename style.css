@@ -70,6 +70,7 @@ html, body {
     background-image: url("images/header.png");
     background-size: cover;
     padding: 381px 40px 40px 40px;
+    margin-bottom: 72px;
 }
 
 .header .text {
@@ -115,3 +116,93 @@ html, body {
     font-size: 14px;
     font-weight: 500;
 }
+
+.section1 {
+    display: flex;
+    justify-content: space-between;
+    width: calc(100% - 100px);
+    height: 244px;
+    background-color: #1E1823;
+    padding: 50px;
+    margin-bottom: 128px;
+}
+
+.section1 .item {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 326px;
+    height: 244px;
+    color: white;
+}
+
+.section1 .item h1 {
+    margin: 0;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.section1 .item p {
+    margin: 0;
+    font-size: 14px;
+    color: #ffffffb6;
+}
+
+.section2 {
+    width: 1136px;
+    margin: 0 32px;
+    margin-bottom: 128px;
+}
+
+.section2 h1 {
+    width: 450px;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 24px;
+    margin-bottom: 28px;
+}
+
+.section2 p {
+    width: 520px;
+    font-size: 14px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.section2 .recipe {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.section2 .item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 15px;
+    width: 214px;
+    height: 214px;
+    padding: 28px;
+}
+
+.section2 .item h2 {
+    font-size: 14px;
+    margin: 0;
+}
+
+.section2 .black {
+    background-color: #1E1823;
+    color: white;
+}
+.section2 .orange {
+    background-color: #FD9222;
+    color: white;
+}
+.section2 .white {
+    background-color: white;
+    border: 1px #FD9222 solid;
+    color: black;
+}
+
+
