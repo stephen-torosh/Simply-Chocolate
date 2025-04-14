@@ -10,4 +10,13 @@
     .desktop-nav .right .sm {
         display: none;
     }
+    .section3 main {
+        justify-content: center;
+    }
+    .section3 main img {
+        width: 614px
+    }
+    .section3 main .text {
+        width: 550px
+    }
 }
