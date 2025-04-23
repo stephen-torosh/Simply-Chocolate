@@ -190,6 +190,27 @@ html, body {
     padding: 28px;
 }
 
+.section2 .item::after {
+    content: '';
+    display: flex;
+    flex-direction: column;
+    color: black;
+    width: 232px;
+    height: 232px;
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    transform: translate(-29px, -29px);
+    z-index: -1;
+    border-radius: 15px;
+}
+
+.section2 .item:hover::after {
+    z-index: 0;
+}
+
+
+
 .section2 .item h2 {
     font-size: 14px;
     margin: 0;
